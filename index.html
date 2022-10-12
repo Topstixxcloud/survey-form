@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+  <div>
+    <h1>survey-form</h1>
+    <h2 id="title">SixTeen Spa survey-form</h2>
+    <p id="description">THANK YOU FOR TAKING TIME TO VISIT US TODAY</p>
+    <form id="survey-form">
+      <fieldset class="first">
+        <label class="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <label>Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <label>Number</label>
+        <input id="number" type="number" placeholder="Enter your number" max="14" min="11" required>
+        </fieldset>
+        
+        <div class="second">
+     <label id="name-label">
+       What do you think about our brand?
+     </label>
+     <label id="email-label">
+       We will send you up to date updates about our brand.
+     </label>
+     <label id="number-label">
+      Or text you through the number you entered above 
+       </label> 
+      </div>
+      <fieldset class="third">
+        How did you hear about us? <br> 
+      <select id="dropdown">
+      <option value="">(select one)</option>
+      <option value="1">Through social media</option>
+      <option value="2">Through one on one conversation</option>
+      </select></fieldset>
+      
+      <fieldset class="services">     
+        <h2 class="heading">How can we improve our services?</h2>
+          <br>
+            <label><input type="radio">By reviewing our</label>
+             <br>
+     <label><input type="radio"> By improving our customer service</label> 
+     <br>
+     <label><input type="checkbox">By increasing our online presence</label>
+     <br>
+     <label><input type="checkbox">By upgrading our website and including schedules and bookings</label>
+<br>
+<br>
+<br>
+</fieldset>
+              <textarea name="text" rows="3" cols="30" placeholder="Visit us today and feel Sixteen again..."></textarea><br><input id="submit" type="submit">
+            </div>
+</body>
+</html>
